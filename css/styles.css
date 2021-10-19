@@ -1,0 +1,40 @@
+/*Declarando variável*/
+:root{
+    --laranja: #eb4d4b;
+    --fundo: #130f40;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var( --fundo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--laranja);
+    font-family: 'Arial Black';
+    font-size: 42px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+}
+header nav a:hover{
+    color:#eb4d4b;
+
+}
