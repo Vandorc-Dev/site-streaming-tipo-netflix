@@ -42,7 +42,7 @@ header nav a:hover{
 /*Filme cartaz*/
 .filme-cartaz{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(19, 0, 0, 0.849)100%),  url('../img/jogo-da-imitacao.jpg');
+    background: linear-gradient(rgba(0,0,0,.30),rgba(19, 0, 0, 0.849)100%),  url('../img/jogo-da-imitacao.jpg');
     height: 550px;
     display: flex;
     flex-direction: column;
@@ -53,9 +53,47 @@ header nav a:hover{
 
 .filme-cartaz .description {
     margin-bottom: 100px;
+    margin-top: 6px;
 }
 
 .titulo {
     font-size: 50px;
+    font-family: 'Trebuchet MS';
+    margin-top: 15%;
 }
 
+.botao{
+    background-color: rgba(0,0,0,.90);
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    margin-right: 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--laranja);
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-cartaz .container{
+    width: 50%;
+}
+
+/*Carrosel*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
