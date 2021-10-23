@@ -1,0 +1,42 @@
+
+
+@media screen and (max-width: 900px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    header nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        padding: 5px 22px 0 22px;
+    }
+    header nav a:hover{
+        color:#eb4d4b;
+        border: solid 1px white;
+    }
+
+    .botao{
+    margin-top: 5px;
+    width: 160px;
+    height: 60px;
+    }
+
+    .description{
+        width: 80%;
+    }
+
+    .filme-cartaz .container{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+    .description{
+        width: 50%;
+    }
+    
+}
